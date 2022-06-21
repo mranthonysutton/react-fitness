@@ -24,6 +24,7 @@ const BodyPart = (props) => {
         cursor: 'pointer',
         gap: '47px',
       }}
+      mb="30px"
       onClick={scrollToExcercise}
     >
       <img
