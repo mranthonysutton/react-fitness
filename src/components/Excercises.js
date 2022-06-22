@@ -6,7 +6,6 @@ import ExcerciseCard from './ExerciseCard';
 
 const Exercises = (props) => {
   const { exercises, setExercises, bodyPart } = props;
-  console.log(exercises);
 
   return (
     <Box id="exercises" sx={{ mt: { lg: '110px' } }} mt="50px" p="20px">
